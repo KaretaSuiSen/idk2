@@ -1,0 +1,276 @@
+
+.heading{
+    font-family: 'Impact', 'Arial Narrow', sans-serif;
+    font-weight: lighter;
+    width: 90%;
+    font-size: 21.6vw;
+    letter-spacing: 0.5cm;
+    line-height: 150%;
+    margin-bottom: 0cm;
+    margin-top: 0cm;
+    color: #2c2c2c;
+    transform: scaleY(2);
+
+}
+
+
+.marginal{
+    position: relative;
+    z-index: 10;
+    display: flex;
+    gap: 20px;
+    font-size: 31.63px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 3vw;
+    transition: 1s ease;
+    margin-bottom: 10vw;
+
+}
+
+.name{
+    margin-top: 0px;
+    margin-right: 70%;
+    letter-spacing: 0.1cm;
+    margin-bottom: 0px;
+    transition: 1s;
+    cursor: pointer;
+    padding-left: 2.3vw;
+
+}
+
+.name:hover{
+    color: white;
+
+}
+
+.one{
+    display: inline-block;
+    transform: rotate(-58.5deg);
+
+}
+
+.buttons button, .pristine{
+    background: none;
+    border: none;
+    font-size: 31.63px;
+    cursor: pointer;
+    transition: 1s ease;
+    
+    
+}
+
+.buttons button:hover, .pristine:hover{
+    color: white;
+    transition: 1s ease;
+
+}
+
+.avatar{
+    width: 19vw;
+
+}
+
+.line, .line2{
+    height: 0.1vw;
+    background-color: black;
+    width: 95%;
+    border-radius: 100px;
+    
+}
+
+.imgs{
+    display: flex;
+    justify-content: space-between; /* Равномерно распределяет картинки по ширине */
+    align-items: center;          
+    width: 90%;
+    margin-top: 60px;
+    padding-bottom: 20px;
+    margin: 5% auto;
+
+}
+
+.face{
+    width: 12vw;
+
+}
+
+.tiny{
+    width: 5vw;
+
+}
+
+body{
+    display: flexbox;
+    align-items: center;
+
+}
+
+.info, .info2, .info3{
+    margin-top: 1.5%;
+    letter-spacing: 0.1cm;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 1.5vw;
+    display: inline-block;
+    margin-right: 18%;
+    padding-left: 2.3vw;
+
+
+
+}
+
+.info3{
+    width: 10%;
+    margin-right: 10%;
+}
+
+.pp{
+    display: flex;
+    gap: 5%;
+    padding-bottom: 10%;
+
+}
+
+.ab {
+    width: 30%;          
+    display: inline-flex;
+    font-weight: 200;
+
+  }
+
+.but{
+    display: inline-flex;
+    gap: 70%;
+
+}
+
+.at{
+    border-radius: 15%;
+    padding-block: 15px;
+    padding-left: 30%;
+    padding-right: 30%;
+    background-color: rgb(70, 62, 21);
+    border-color: rgb(58, 42, 42);
+    border-style: solid;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.at:hover{
+  background-color: rgba(201, 235, 12, 0.521);
+
+}
+
+.achievments{
+    display: flex;
+    gap: 10vw;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10vw;
+    margin-top: 1vw;
+
+}
+
+.OTEK{
+    display: flex;
+    width: 15vw;
+    z-index: 2;
+
+}
+
+.core{
+    margin: 5vw auto;
+    margin-left: 8vw;
+    font-weight: bold;
+    font-size: 14px ;
+    background-color: rgb(70, 62, 21);
+    border-color: rgb(58, 42, 42);
+    border-style: solid;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 15%;
+    padding-block: 1vw;
+    width: 10%;
+    margin-bottom: 2%;
+
+}
+
+.core:hover{
+    background-color: rgba(201, 235, 12, 0.521);
+
+  }
+
+.ecl{
+    position: relative;
+    width: 10vw;
+    z-index: 0;
+    right: 39%;
+    transform: scaleX(2);
+
+}
+
+.achiev{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 15vw;
+
+}
+
+.mar {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    margin-bottom: 10%
+
+}
+
+.hh{
+    font-size: 1.1vw;
+
+}
+
+.do{
+    width: 13vw;
+
+}
+
+.info2{
+    margin-bottom: 5vw;
+
+}
+
+.pristine{
+    margin: 0 auto;
+    padding-bottom: 1.7%;
+
+    
+
+}
+
+.hmm{
+    display: flex;
+}
+
+.so{
+    margin-top: 8vw;
+    display: column;
+    margin-left: 45%;
+    margin-bottom: 10vw;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.last{
+    display: block;
+    margin: 0 auto; /* центрирует картинку по горизонтали */
+    width: 96%;
+   
+}
